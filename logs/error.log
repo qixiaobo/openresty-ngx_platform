@@ -1,0 +1,458 @@
+2018/04/04 14:05:23 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:22: session_auth(): action: add_user_address_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] user_address_dao.lua:51: add_user_address(): -------------------------11, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] db_mysql.lua:123: get_user(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=SELECT * FROM t_user LEFT JOIN t_user_ext_info ON t_user_ext_info.user_id_fk=t_user.user_id LEFT JOIN t_account ON t_account.user_id_fk=t_user.user_id WHERE (t_user.user_name='nil' or t_user.email='nil' or t_user.phone_number='nil' or t_user.user_id='10000073');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] user_address_dao.lua:60: add_user_address(): -------------------------22, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] db_mysql.lua:123: get_user(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=SELECT * FROM t_user LEFT JOIN t_user_ext_info ON t_user_ext_info.user_id_fk=t_user.user_id LEFT JOIN t_account ON t_account.user_id_fk=t_user.user_id WHERE (t_user.user_name='nil' or t_user.email='nil' or t_user.phone_number='nil' or t_user.user_id='10000073');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] require_ex.lua:169: __concat(): ---------------------------------------- TRACKBACK ----------------------------------------, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] require_ex.lua:170: __concat(): ...r/openresty/openresty_with_luajit/lualib/resty/mysql.lua:808: attempt to concatenate local 'query' (a nil value)
+stack traceback:
+	lua/modules/user/api/user_info.lua:805: in function <lua/modules/user/api/user_info.lua:770>
+	[C]: in function 'xpcall'
+	lua/common/lua_ex/require_ex.lua:213: in function 'xcallAction'
+	./lua/modules/dispatch.lua:21: in function <./lua/modules/dispatch.lua:1>LUA ERROR, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:05:23 [error] 2357#0: *310 [lua] require_ex.lua:171: __concat(): ---------------------------------------- TRACKBACK ----------------------------------------, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:22: session_auth(): action: add_user_address_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] user_address_dao.lua:51: add_user_address(): -------------------------11, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] require_ex.lua:169: __concat(): ---------------------------------------- TRACKBACK ----------------------------------------, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] require_ex.lua:170: __concat(): ...r/openresty/openresty_with_luajit/lualib/resty/mysql.lua:808: attempt to concatenate local 'query' (a nil value)
+stack traceback:
+	lua/modules/user/api/user_info.lua:805: in function <lua/modules/user/api/user_info.lua:770>
+	[C]: in function 'xpcall'
+	lua/common/lua_ex/require_ex.lua:213: in function 'xcallAction'
+	./lua/modules/dispatch.lua:21: in function <./lua/modules/dispatch.lua:1>LUA ERROR, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:06:16 [error] 2357#0: *314 [lua] require_ex.lua:171: __concat(): ---------------------------------------- TRACKBACK ----------------------------------------, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:22: session_auth(): action: add_user_address_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] user_address_dao.lua:97: add_user_address(): -------------------------1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:07:39 [error] 2357#0: *318 [lua] user_address_dao.lua:103: add_user_address(): -------------------------2, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:22: session_auth(): action: add_user_address_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:07 [error] 2357#0: *318 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/add_user_address_info.action?user_id=10000073&accept_name=%E5%BC%A0%E4%B8%89&phone_number=15261854062&zip_code=213170&area_no=0086&address=%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8C%BA%E6%B1%87%E6%99%BA%E5%A4%A7%E5%8E%A6A-215&is_default=true HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] user_info.lua:553: has_user_signed(): sign_time: 2018-04-04 11:06:09, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] user_info.lua:562: has_user_signed(): sql_sign_date: 2018-04-04, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:18 [error] 2357#0: *318 [lua] user_info.lua:564: has_user_signed(): sign_date: 2018-04-04, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000073&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:40: session_auth(): user_id: 10000022, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:23 [error] 2357#0: *328 [lua] token_auth.lua:62: session_auth(): redis session_id: Ü¸j[ πGÄËM•Ùä, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:22: session_auth(): action: get_sign_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:40: session_auth(): user_id: 10000022, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:24 [error] 2357#0: *328 [lua] token_auth.lua:62: session_auth(): redis session_id: Ü¸j[ πGÄËM•Ùä, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:22: session_auth(): action: get_sign_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:40: session_auth(): user_id: 10000022, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:25 [error] 2357#0: *318 [lua] token_auth.lua:62: session_auth(): redis session_id: Ü¸j[ πGÄËM•Ùä, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:22: session_auth(): action: get_sign_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:40: session_auth(): user_id: 10000022, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:62: session_auth(): redis session_id: Ü¸j[ πGÄËM•Ùä, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000022 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:22: session_auth(): action: get_sign_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:29 [error] 2357#0: *328 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:19: session_auth(): expires: 1522823884, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:22: session_auth(): action: get_sign_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:08:30 [error] 2357#0: *318 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/get_sign_info.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] user_auth.lua:380: login, user id: 10000040, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] user_auth.lua:381: login, session id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] user_redis.lua:9: delete_session(): _key: ov«ÛrÊµ~jö"æ, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_ov«ÛrÊµ~jö"æ, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:02 [error] 2359#0: *343 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, login_time) VALUES('10000040', '2018-04-04 14:36:02');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] user_auth.lua:380: login, user id: 10000042, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] user_auth.lua:381: login, session id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:12 [error] 2358#0: *347 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, login_time) VALUES('10000042', '2018-04-04 14:36:12');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=Alex123&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:40: session_auth(): user_id: 10000022, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:18 [error] 2359#0: *343 [lua] token_auth.lua:62: session_auth(): redis session_id: Ü¸j[ πGÄËM•Ùä, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000022&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:40: session_auth(): user_id: 10000042, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:28 [error] 2358#0: *347 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:29 [error] 2358#0: *347 lua tcp socket read timed out, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:29 [error] 2358#0: *347 [lua] db_mysql.lua:32: new(): connect error!-------, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:29 [error] 2358#0: *347 [lua] user_info.lua:614: [sign_in] err: Á≥ªÁªüÈîôËØØ., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:40: session_auth(): user_id: 10000042, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, sign_time) VALUES('10000042', '2018-04-04 14:36:56');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] user_dao.lua:566: set_sign_trade(): [set_sign_trade] insert into t_trade_tf(order_no_fk,trade_to_account_type,trade_state,trade_type_fk,trade_no,trade_from_account_type,trade_from_id,trade_from_amount,pay_time,trade_to_amount_type,initiate_time,trade_to_amount,trade_to_id,finish_time,trade_from_amount_type) values('','ZSACCOUNT','TRADE_SUCCESS','Á≠æÂà∞Â•ñÂä±','201804041436563632400800002','ZSACCOUNT','server_acount','100','2018-04-04 14:36:56','ZSB','2018-04-04 14:36:56','100','10000042','2018-04-04 14:36:56','ZSB');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:36:56 [error] 2358#0: *347 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=insert into t_trade_tf(order_no_fk,trade_to_account_type,trade_state,trade_type_fk,trade_no,trade_from_account_type,trade_from_id,trade_from_amount,pay_time,trade_to_amount_type,initiate_time,trade_to_amount,trade_to_id,finish_time,trade_from_amount_type) values('','ZSACCOUNT','TRADE_SUCCESS','Á≠æÂà∞Â•ñÂä±','201804041436563632400800002','ZSACCOUNT','server_acount','100','2018-04-04 14:36:56','ZSB','2018-04-04 14:36:56','100','10000042','2018-04-04 14:36:56','ZSB');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:21: session_auth(): clazz: user_info, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:22: session_auth(): action: sign_in, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:40: session_auth(): user_id: 10000042, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] user_info.lua:553: has_user_signed(): sign_time: 2018-04-04 14:36:56, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] user_info.lua:562: has_user_signed(): sql_sign_date: 2018-04-04, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:37:00 [error] 2358#0: *347 [lua] user_info.lua:564: has_user_signed(): sign_date: 2018-04-04, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_info/sign_in.action?user_id=10000042&balance=100 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] user_auth.lua:386: login, user id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:38 [error] 2357#0: *362 [lua] user_auth.lua:387: login, session id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *362 [lua] user_redis.lua:9: delete_session(): _key: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *362 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *362 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, login_time) VALUES('10000073', '2018-04-04 14:45:39');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] user_auth.lua:386: login, user id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] user_auth.lua:387: login, session id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] user_redis.lua:9: delete_session(): _key: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:45:39 [error] 2357#0: *366 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, login_time) VALUES('10000073', '2018-04-04 14:45:39');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: unregister, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:46:10 [error] 2357#0: *366 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] user_auth.lua:386: login, user id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] user_auth.lua:387: login, session id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] user_redis.lua:9: delete_session(): _key: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:06 [error] 2357#0: *366 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:07 [error] 2357#0: *366 [lua] db_mysql.lua:123: exec_query(): =====> [Êï∞ÊçÆÂ∫ì] Database successful: sql=INSERT INTO t_user_help (user_id_fk, login_time) VALUES('10000073', '2018-04-04 14:47:07');, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: unregister, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:13 [error] 2357#0: *366 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: unregister, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:36: session_auth(): [token_auth] request auth., client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:40: session_auth(): user_id: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:61: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] token_auth.lua:62: session_auth(): redis session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] user_redis.lua:9: delete_session(): _key: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] user_redis.lua:9: delete_session(): _key: 10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:26 [error] 2357#0: *366 [lua] user_redis.lua:21: delete_session(): key: USER_SESSION_10000073, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/unregister.action?user_id=10000073 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:29 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:33 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:40 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: [lua] nginx_init_by_lua.lua:16: 
+
+============================================== nginx start
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:18: session_auth(): session_id: Âª®sÆ€∆≥l
+?oy, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:19: session_auth(): expires: 1522827362, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:20: session_auth(): lifetime: 3600, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:21: session_auth(): clazz: user_auth, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:22: session_auth(): action: login, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"
+2018/04/04 14:47:41 [error] 2357#0: *366 [lua] token_auth.lua:23: session_auth(): ip: 127.0.0.1, client: 127.0.0.1, server: localhost, request: "GET /user/api/user_auth/login.action?login_name=111Alex&password=12345678 HTTP/1.1", host: "localhost"

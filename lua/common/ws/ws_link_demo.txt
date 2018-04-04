@@ -1,0 +1,150 @@
+--[[
+--  作者:Steven 
+--  日期:2017-02-26
+--  文件名:ws_link.lua
+--  版权说明:南京正溯网络科技有限公司.版权所有©copy right.
+--  web socket 入口,通过入口进行用户的状态的保持,消息收发以及其他
+--  
+--]]
+
+-- simple chat with redis
+local redis = require "resty.redis"
+local ws_server = require "common.ws_server" 
+local reqArgs = require "common.request"
+local WS_EVENT = require "common.event" .WS_EVENT
+local cjson = require "cjson"
+
+
+-- 读取玩家的信息包括主播名称,用户id,接入前需要提前判断一次,
+-- 这里做一次判断,会比较多余
+local currentRequestArgs = reqArgs.new()
+local args = currentRequestArgs.getArgs()
+-- 查询当前的请求
+
+-- userCode 表示用户编号,该文件会作为用户上传的文件存储在用户空间中
+local userCode = args["userCode"];   
+
+-- redis订阅,订阅返回
+local channel_name = "gameroom1"
+ 
+-- 初始化 ws_server 对象
+local ws = ws_server:new()
+
+if not ws then return ngx.exit(444) end
+ngx.log(ngx.ERR,userCode)
+--[[
+-- push 函数默认使用 redis订阅功能进行数据管理
+--  也可以采用信号量+信息队列进行数据推送和发送
+-- 
+--]]
+local push = function( )
+    -- body
+    
+    -- --create redis
+    local red = redis:new()
+    red:set_timeout(5000) -- 1 sec
+    local ok, err = red:connect("127.0.0.1", 6379)
+    if not ok then
+        ngx.log(ngx.ERR, "failed to connect redis: ", err)
+        ws:exit(444)
+        return
+    end
+
+    --sub
+    local res, err = red:subscribe(channel_name,userCode)
+    if not res then
+        ngx.log(ngx.ERR, "failed to sub redis: ", err)
+        ws:exit(444)
+        return
+    end
+
+    -- loop : read from redis
+    while true do
+        local res, err = red:read_reply() -- ["message","gameroom1","3333"] ["subscribe","111",2]
+        if res then
+            local typ = res[1]
+            local item = res[3]
+            ngx.log(ngx.ERR,"------",cjson.encode(res))
+            if typ == "message" then
+                local bytes, err = ws:sendMsg(item) 
+                if not bytes then
+                    -- better error handling
+                    ngx.log(ngx.ERR, "failed to send text: ", err)
+                    -- return ws:exit(444)
+                end  
+            end
+            
+        end
+    end
+ 
+end
+
+    -- FATAL_EVENT = 1,    -- ws 异常失败的事件类型
+    -- NODATE_EVENT = 2,   -- ws 没有数据错误事件通知
+    -- PING_ERR_EVENT = 3, -- ws ping事件
+    -- CLOSE_EVENT = 4,    -- ws 客户端连接关闭事件
+    -- PONG_EVENT = 5,     -- ws pong事件
+    -- TEXT_EVENT = 6,     -- 通信到来事件到来
+    -- SEND_ERR_EVENT = 7, -- 发送错误事件
+local msgDispath = function( event, data )
+    -- body
+    if event == WS_EVENT.FATAL_EVENT
+        or event == WS_EVENT.NODATE_EVENT
+        or event == WS_EVENT.PING_ERR_EVENT
+        or event == WS_EVENT.CLOSE_EVENT
+        or event == WS_EVENT.SEND_ERR_EVENT
+    then
+    -- ws离线消息,将用户当前状态设置为false
+
+    elseif event == WS_EVENT.TEXT_EVENT then
+        -- 打印用户消息,如果场景是需要将数据处理完,返回通知用户,则进行数据回推
+        -- 一般数据回推使用信号量或者其他方案进行数据回推 
+         --send to redis
+
+        local msg = cjson.decode(data)
+
+        local red2 = redis:new()
+        red2:set_timeout(1000) -- 1 sec
+        local ok, err = red2:connect("127.0.0.1", 6379)
+        if not ok then
+            ngx.log(ngx.ERR, "failed to connect redis: ", err)
+            return 
+        end
+-------------
+
+        local res, err 
+        if msg.type ==  "room" then
+            res, err = red2:publish(channel_name, data)
+        elseif  msg.type ==  "self"  then
+            res, err = red2:publish(userCode, data)
+        else
+
+        end
+        if not res then
+            ngx.log(ngx.ERR, "failed to publish redis: ", err)
+        end  
+        
+    else
+
+    end
+
+end
+
+ws:init(push,msgDispath)
+-- 进行loop操作,当loop结束,则返回数据
+ws:loop()
+-- 清理用户信息
+ws:clear()
+ngx.log(ngx.ERR,"退出")
+--[[
+local ngx_worker_id = ngx.worker.id()
+
+local _incr_id = 0
+
+local _gen_session_id = function()
+    _incr_id = _incr_id + 1
+    return (ngx_worker_id + 1) * 100000 + _incr_id
+end
+local seesionId = _gen_session_id();
+
+]]  

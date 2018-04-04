@@ -1,0 +1,9 @@
+
+ 
+if not ZS_ERROR_CODE then ZS_ERROR_CODE = {} end
+-- 微信操作相关错误
+ZS_ERROR_CODE.WECHAT_SYSTEM_ERROR = 0xffff + 0x1
+-- 微信登录同意
+ZS_ERROR_CODE.WECHAT_LOGIN_AGREE = 0xffff + 0x2
+-- 微信登录拒绝
+ZS_ERROR_CODE.WECHAT_LOGIN_DISAGREE_ERROR = 0xffff + 0x3

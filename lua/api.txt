@@ -1,0 +1,8 @@
+
+IP: http://139.196.180.249:9990/
+
+business/api/channel/add_channel_product.action?channel_id=20000001&name=GAME1&no=1&ad=这是一个缩写&logo=
+
+business/api/channel/get_channel_product.action?channel_id=20000001
+
+business/api/channel/access_user.action?channel_id=20000001&access_code=123&user_name=hello
